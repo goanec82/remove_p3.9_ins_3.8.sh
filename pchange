@@ -13,7 +13,9 @@ tar xf Python-3.8.0.tar.xz
 cd Python-3.8.0
 ./configure --enable-optimizations --prefix=/usr
 make && sudo make altinstall
-cd .. && sudo rm -r Python-3.8.0
-rm Python-3.8.0.tar.xz && . ~/.bashrc
+cd ..
+sudo rm -r Python-3.8.0
+rm Python-3.8.0.tar.xz
+. ~/.bashrc
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
 python -V
