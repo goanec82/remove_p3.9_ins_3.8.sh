@@ -8,9 +8,10 @@ ls /usr/bin/python*
 #install python 3.8
 sudo apt-get update
 sudo apt install python3.8
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 10
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
 
 """
+#dl and copile Python 3.8.0
 sudo apt-get update
 sudo apt-get install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
 wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tar.xz
